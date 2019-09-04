@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="2">
+  <test  name="UserStory1">
+    <classes>
+      <class name="com.rd.epam.Flipkart.testCases.LoginPageTest"/>
+    </classes>
+  </test> 
+  <test name="UserStory2">
+    <classes>
+      <class name="com.rd.epam.Flipkart.testCases.Categories"/>
+    </classes>
+  </test> 
+  <test  name="UserStory3">
+    <classes>
+      <class name="com.rd.epam.Flipkart.testCases.SearchTest"/>
+    </classes>
+  </test>
+  <test  name="UserStory4">
+    <classes>
+      <class name="com.rd.epam.Flipkart.testCases.SortFilterTest"/>
+    </classes>
+  </test> 
+  <test name="UserStory5">
+    <classes>
+      <class name="com.rd.epam.Flipkart.testCases.AddToCartPageTest"/>
+    </classes>
+  </test> 
+</suite> 
